@@ -1,4 +1,18 @@
-baseURL = 'https://example.org/'
+baseURL = ''
 languageCode = 'en-us'
 title = 'Theme #3 Prototype Site'
-theme = ""
+theme = "ananke"
+
+[params]
+description = "Website for Game Prototype Theme #3"
+author = "Neve Lane"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "Objects"
+  url = "/objects/"
+  weight = 2
